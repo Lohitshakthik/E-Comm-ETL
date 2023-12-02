@@ -7,8 +7,8 @@ from io import BytesIO
 st.title("Welcome to ETL Page")
 
 # AWS credentials
-aws_access_key = 'XXXX'
-aws_secret_key = 'XXXXXX'
+#aws_access_key = 'XXXX'
+#aws_secret_key = 'XXXXXX'
 
 # S3 bucket names
 orders_bucket_name = '0rders01'
