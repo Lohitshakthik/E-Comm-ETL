@@ -1,12 +1,11 @@
 import boto3
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError, ClientError
 
-# Replace 'your_access_key' and 'your_secret_key' with your AWS access key and secret key
-aws_access_key = 'AKIAX2NCV7VNBD647FTJ'
-aws_secret_key = 'Am0Q+zOOAOc8lbJZjG95dUo8TlUkusPmg23KAUw8'
+aws_access_key = 'XXXX'
+aws_secret_key = 'XXXXXX'
 
-# Replace 'bucket1' and 'bucket2' with your desired bucket names
 bucket_names = ['0rders01', 'returns02']
+
 
 def create_s3_bucket(bucket_name):
     try:
@@ -25,8 +24,7 @@ def create_s3_bucket(bucket_name):
         else:
             print(f"Error creating bucket '{bucket_name}': {str(e)}")
 
-# Create the first bucket
+
 create_s3_bucket(bucket_names[0])
 
-# Create the second bucket
 create_s3_bucket(bucket_names[1])
