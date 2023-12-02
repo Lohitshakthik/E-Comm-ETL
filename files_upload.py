@@ -1,8 +1,8 @@
 import boto3
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError, ClientError
 
-aws_access_key = 'XXXX'
-aws_secret_key = 'XXXXXX'
+#aws_access_key = 'XXXX'
+#aws_secret_key = 'XXXXXX'
 
 bucket_names = ['0rders01', 'returns02']
 
